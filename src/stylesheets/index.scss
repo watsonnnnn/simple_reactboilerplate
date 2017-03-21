@@ -1,0 +1,7 @@
+@mixin fontSet($size:16px,$color:red){
+  font-size: $size;
+  color:$color;
+}
+p{
+  @include fontSet();
+}
